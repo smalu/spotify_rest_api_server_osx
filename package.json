@@ -1,0 +1,27 @@
+{
+  "name": "spotify_rest_api_server_osx",
+  "version": "1.0.0",
+  "description": "A simple REST API server for managing local spotify via Apple Script interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smalu/spotify_rest_api_server_osx.git"
+  },
+  "keywords": [
+    "spotify",
+    "applescript"
+  ],
+  "author": "Mikolaj Smal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smalu/spotify_rest_api_server_osx/issues"
+  },
+  "homepage": "https://github.com/smalu/spotify_rest_api_server_osx#readme",
+  "dependencies": {
+	  "spotify-node-applescript": "1.x",
+	  "restify": "4.1.x",
+  }
+}
